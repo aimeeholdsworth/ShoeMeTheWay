@@ -1,6 +1,6 @@
 {
   "name": "px-sample-app-react-directions",
-  "homepage": "https://shoe-me-the-way.herokuapp.com/#/"
+  "homepage": "https://shoe-me-the-way.herokuapp.com/#/",
   "private": true,
   "engines": {
     "npm": "5.8.0",

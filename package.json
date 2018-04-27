@@ -1,9 +1,8 @@
 {
   "name": "px-sample-app-react-directions",
-  "homepage": "https://shoe-me-the-way.herokuapp.com/#/",
+  "homepage": "https://shoe-me-the-way.herokuapp.com/index.html",
   "private": true,
-  "proxy": "http://localhost:8080",
-  "disableHostCheck": true,
+  
   "engines": {
     "npm": "5.8.0",
     "node": "8.9.4"

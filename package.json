@@ -34,4 +34,3 @@
   "license": "BSD-3-Clause"
 }
 
-app.use( express.static( `${__dirname}/../build` ) );

@@ -2,9 +2,10 @@
   "name": "px-sample-app-react-directions",
   "homepage": "https://shoe-me-the-way.herokuapp.com/#/",
   "private": true,
+  "proxy": "http://localhost:8080",
   "engines": {
     "npm": "5.8.0",
-     "node": "8.9.4"
+    "node": "8.9.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@mapbox/geo-viewport": "^0.2.2",
+    "express": "^4.16.3",
     "gh-pages": "^1.1.0",
     "lodash.debounce": "^4.0.8",
     "pubnub": "^4.20.2",
@@ -33,4 +35,3 @@
   },
   "license": "BSD-3-Clause"
 }
-

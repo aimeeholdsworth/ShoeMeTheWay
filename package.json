@@ -1,6 +1,11 @@
 {
   "name": "px-sample-app-react-directions",
+  "homepage": "https://shoe-me-the-way.herokuapp.com/#/"
   "private": true,
+  "engines": {
+    "npm": "5.8.0",
+     "node": "8.9.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && npm run-script scss",
@@ -28,3 +33,5 @@
   },
   "license": "BSD-3-Clause"
 }
+
+app.use( express.static( `${__dirname}/../build` ) );

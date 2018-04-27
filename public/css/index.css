@@ -1,0 +1,93 @@
+
+
+body {
+  background-color: #6495ed;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: 'Montserrat', sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #6b6868;
+  padding: 0;
+  text-align: left;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.header :hover {
+  color:#b6b6b6;
+  text-decoration: underline;
+ 
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+
+#root > div > div{
+  height: 500px;
+}
+
+#root > div > ul{
+  margin-left: 0px;
+}
+
+#root > div > h1{
+  text-align: center;
+  color: white;
+}
+
+#root > div > img{
+  height:80px;
+}
+
+#root > div{
+  text-align: center;
+}
+
+
+textarea{
+  width:50%;
+  padding:20px;
+}
+
+label{
+  padding-top: 20px;
+}
+
+#root > div > div > div > p{
+  float:left;
+  width: 50%;
+  padding-top:10px;
+}
+
+#root > div > div > div > img{
+      width: 31%;
+    height: 289px;
+    
+    margin-top: 26px;
+}
+
+#root > div > div > div > p{
+  width:100%;
+}

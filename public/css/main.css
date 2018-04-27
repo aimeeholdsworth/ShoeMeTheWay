@@ -1,0 +1,25 @@
+.app-header{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+	background: #6495ed;
+	color:white;
+}
+
+
+
+.app-content{
+	margin-top: 160px;
+}
+
+
+#root > div > div.center > div > img{
+	height:90px;
+}
+
+
+
+
+#container li {
+  margin-bottom: 10px;
+}
